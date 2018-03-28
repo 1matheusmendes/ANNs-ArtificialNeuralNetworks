@@ -14,9 +14,12 @@ def soma (e, p): #FUNÇÃO SOMA
 
 s = soma(entradas, pesos) #INSTANCIA S = SOMA      
 
+
 def stepFunction(soma): #FUNÇÃO DEGRAU
     if (soma >= 1): #VERIFICA O VALOR ESTABELECIDO NA FUNÇÃO DEGRAU
         return 1 #SE MAIOR QUE 1 RETORNA 1, REPRESENTA TUDO
     return 0 #CASO CONTRARIO RETORNA ZERO, REPRESENTA NADA
 
 r = stepFunction(s) #INSTANCIA DA FUNÇÃO DEGRAU
+
+print (s)
