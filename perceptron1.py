@@ -25,8 +25,4 @@ def stepFunction(soma): #FUNÇÃO DEGRAU
 
 r = stepFunction(s) #INSTANCIA DA FUNÇÃO DEGRAU
 
-print ("Resultado da função degrau")
-print (s)
-
-  
-#teste Fetching latest commit…  
+print ("O retorno da função degrau é " + `s`)
